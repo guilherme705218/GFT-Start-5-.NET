@@ -1,0 +1,126 @@
+# Visual Studio
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+builds/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Bb]uild[Ll]ogs/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio 2022+ configuration
+.vscode/test-*.log
+.vscode/test-*.json
+
+# IIS Express
+/.vsconfig
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.layout
+*.config
+
+# Microsoft Azure Web App publish settings
+*.Publish.xml
+
+# Publish Web Applications
+*.publishsettings
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Roslyn
+*.ide
+
+# Windows image file caches
+Thumbs.db
+desktop.ini
+
+# Folder config file
+FolderState.txt
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.tlog
+*.wrn
+*.log.json
+*.wrn.json
+
+# Crash dumps
+*.dmp
+
+# Visual Studio temporary files
+~$*
+~*.tmp
+*.tmp
+
+# SQL Server files
+*.sqlproj.user
+*.vscode/*
+
+# Store
+*.vscode/.ide
+
+# Others
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.relo
+*.pdb
+*.ilk
+*.idb
+*.pgc
+*.pgd
+*.vspx
+*.trx
+*.coverage
+*.xap
+*.nupkg
+*.snk
+*.userprefs
+*.cache
+*.woff
+*.woff2
