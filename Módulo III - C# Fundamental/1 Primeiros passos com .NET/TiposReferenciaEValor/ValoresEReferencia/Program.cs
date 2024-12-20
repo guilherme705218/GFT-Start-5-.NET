@@ -12,8 +12,7 @@
 
         }
 
-
-        static void Main(string[] args)
+        static void Demo3() 
         {
             StructPessoa p1 = new StructPessoa()
             {
@@ -28,6 +27,28 @@
 
             Pessoa.TrocarNome(p, "João");
         }
+
+        static void Demo4() 
+        {
+            string nome = "Ricardo";
+
+            Pessoa.TrocarNome(nome, "José");
+
+            Console.WriteLine($"O novo nome é {nome}");
+        }
+        static void Main(string[] args)
+        {
+
+            int[] pares = new int[] {0,2,4,6,8};
+
+            Pessoa.MudarParaImpar(pares);
+
+            Console.WriteLine($"Os impares {string.Join(",", pares)}");
+
+
+
+        }
+
     }
     class Pessoa
     {
@@ -65,6 +86,20 @@
         public static void TrocarNome(StructPessoa p1, string nomeNovo) 
         {
             p1.Nome = nomeNovo;
+        }
+
+        public static void TrocarNome(string nome, string nomeNovo) 
+        {
+            nome = nomeNovo;
+        }
+
+        public static void MudarParaImpar(int[] impar) 
+        {
+            for (int i = 0; i < impar.Length; i++)
+            {
+                impar[i] = impar[i] + 1; 
+            
+            }
 
         
         }
